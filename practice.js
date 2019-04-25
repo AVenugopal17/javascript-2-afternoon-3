@@ -170,7 +170,7 @@ each(names, function(item, indice){
 
 function getUserById (array, id, callback){
   for (var i = 0; i < array.length; i++){
-    if (arr[i] === id){
+    if (array[i] === id){
       return callback(users [i])
     }
   }
